@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <!--
 	NOTES:
 	1. All tokens are represented by '$' sign in the template.
@@ -6,7 +7,6 @@
 	4. Blank lines will be removed automatically.
 	5. Remove unnecessary comments before creating your template.
 -->
-<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -14,11 +14,13 @@
 <title>01End</title>
 <!-- write your code here -->
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-<script src="01End.js?1467061092482"></script>
+<script src="01End.js"></script>
 <script>
-var canvas, stage, exportRoot;
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
 	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
 	images = images||{};
 	ss = ss||{};
 	var loader = new createjs.LoadQueue(false);
@@ -40,17 +42,19 @@ function handleComplete(evt) {
 	stage = new createjs.Stage(canvas);
 	stage.addChild(exportRoot);	
 	//Registers the "tick" event listener.
-	createjs.Ticker.setFPS(lib.properties.fps);
-	createjs.Ticker.addEventListener("tick", stage);	    
+	fnStartAnimation = function() {
+		createjs.Ticker.setFPS(lib.properties.fps);
+		createjs.Ticker.addEventListener("tick", stage);
+	}	    
 	//Code to support hidpi screens and responsive scaling.
-	(function(isResp, respDim, isScale, scaleType) {		
+	function makeResponsive(isResp, respDim, isScale, scaleType) {		
 		var lastW, lastH, lastS=1;		
 		window.addEventListener('resize', resizeCanvas);		
 		resizeCanvas();		
 		function resizeCanvas() {			
 			var w = lib.properties.width, h = lib.properties.height;			
 			var iw = window.innerWidth, ih=window.innerHeight;			
-			var pRatio = window.devicePixelRatio, xRatio=iw/w, yRatio=ih/h, sRatio=1;			
+			var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;			
 			if(isResp) {                
 				if((respDim=='width'&&lastW==iw) || (respDim=='height'&&lastH==ih)) {                    
 					sRatio = lastS;                
@@ -68,18 +72,24 @@ function handleComplete(evt) {
 			}			
 			canvas.width = w*pRatio*sRatio;			
 			canvas.height = h*pRatio*sRatio;
-			canvas.style.width = w*sRatio+'px';			
-			canvas.style.height = h*sRatio+'px';
+			canvas.style.width = dom_overlay_container.style.width = anim_container.style.width =  w*sRatio+'px';				
+			canvas.style.height = anim_container.style.height = dom_overlay_container.style.height = h*sRatio+'px';
 			stage.scaleX = pRatio*sRatio;			
 			stage.scaleY = pRatio*sRatio;			
 			lastW = iw; lastH = ih; lastS = sRatio;		
 		}
-	})(false,'both',false,1);	
+	}
+	makeResponsive(false,'both',false,1);	
+	fnStartAnimation();
 }
 </script>
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px;">
-	<canvas id="canvas" width="800" height="600" style="display: block; background-color:rgba(51, 51, 51, 1.00)"></canvas>
+	<div id="animation_container" style="background-color:rgba(51, 51, 51, 1.00); width:800px; height:600px">
+		<canvas id="canvas" width="800" height="600" style="position: absolute; display: block; background-color:rgba(51, 51, 51, 1.00);"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:800px; height:600px; position: absolute; left: 0px; top: 0px; display: block;">
+		</div>
+	</div>
 </body>
 </html>
