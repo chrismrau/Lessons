@@ -1,0 +1,111 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#333333" width="800" height="600" currentTimeline="1" xflVersion="2.9" creatorInfo="Adobe Animate CC" platform="Windows" versionInfo="Saved by Animate Windows 16.1 build 86" majorVersion="16" minorVersion="1" buildNumber="86" timelineLabelWidth="196" viewAngle3D="74.2651684569298" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="3CE50BB6-55CF-47A6-B591-01286DDDC64C" fileGUID="8844762A6928EA4CB93FE5D2FEED8B7D">
+     <media>
+          <DOMBitmapItem name="background.png" itemID="58b87b6c-0000002f" sourceExternalFilepath="./LIBRARY/background.png" sourceLastImported="1488387276" externalFileCRC32="172077870" externalFileSize="933294" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="background.png" bitmapDataHRef="M 5 1488485228.dat" frameRight="16000" frameBottom="12000"/>
+          <DOMBitmapItem name="photo1.jpg" itemID="58b87ba7-00000034" sourceExternalFilepath="./LIBRARY/photo1.jpg" sourceLastImported="1488387276" externalFileCRC32="4280742556" externalFileSize="78588" allowSmoothing="true" quality="50" href="photo1.jpg" bitmapDataHRef="M 6 1488485287.dat" frameRight="8000" frameBottom="10000" isJPEG="true"/>
+          <DOMBitmapItem name="photo2.jpg" itemID="58b87ba7-00000039" sourceExternalFilepath="./LIBRARY/photo2.jpg" sourceLastImported="1488387276" externalFileCRC32="3847837125" externalFileSize="102412" allowSmoothing="true" quality="50" href="photo2.jpg" bitmapDataHRef="M 7 1488485287.dat" frameRight="8000" frameBottom="10000" isJPEG="true"/>
+          <DOMBitmapItem name="photo3.jpg" itemID="58b87ba7-0000003e" sourceExternalFilepath="./LIBRARY/photo3.jpg" sourceLastImported="1488387276" externalFileCRC32="3603950235" externalFileSize="138394" allowSmoothing="true" quality="50" href="photo3.jpg" bitmapDataHRef="M 8 1488485287.dat" frameRight="8000" frameBottom="10000" isJPEG="true"/>
+     </media>
+     <timelines>
+          <DOMTimeline name="Scene 1" currentFrame="47">
+               <layers>
+                    <DOMLayer name="stars" color="#808080" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="35" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="35" duration="13" keyMode="9728">
+                                   <elements>
+                                        <DOMShape>
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#FFFF00"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <edges>
+                                                  <Edge fillStyle1="1" edges="!14501 1456|13999 1283!13999 1283|13659 1690!13659 1690|13668 1160!13668 1160|13176 962!13176 962|13683 807!13683 807|13719 278!13719 278|14023 712!14023 712|14538 583!14538 583|14219 1006!14219 1006|14501 1456!14518 2072|14207 2181!14207
+ 2181|14198 2511!14198 2511|13998 2249!13998 2249|13682 2343!13682 2343|13869 2072!13869 2072|13682 1800!13682 1800|13998 1894!13998 1894|14198 1632!14198 1632|14207 1962!14207 1962|14518 2072!14159 9485|13829 10275!13829 10275|14450
+ 10866!14450 10866|13596 10797!13596 10797|13226 11570!13226 11570|13028 10736!13028 10736|12179 10623!12179 10623|12910 10177!12910 10177|12755 9335!12755 9335|13405 9893!13405 9893|14159 9485!12721 1507|12287 1452!12287 1452|12081 1838
+!12081 1838|11999 1409!11999 1409|11568 1333!11568 1333|11951 1122!11951 1122|11890 689!11890 689|12209 987!12209 987|12602 796!12602 796|12417 1192!12417 1192|12721 1507!1832 1679|1194 1450!1194 1450|752 1964!752 1964|773 1287!773 1287
+|147 1026!147 1026|798 836!798 836|853 160!853 160|1234 720!1234 720|1894 564!1894 564|1479 1100!1479 1100|1832 1679!6404 7876|4547 7793!4547 7793|3807 9497!3807 9497|3312 7706!3312 7706|1463 7529!1463 7529|3013 6505!3013 6505|2610 4691
+!2610 4691|4063 5849!4063 5849|5664 4905!5664 4905|5012 6645!5012 6645|6404 7876!6386 10170|5878 9831!5878 9831|5381 10185!5381 10185|5545 9597!5545 9597|5055 9234!5055 9234|5665 9209!5665 9209|5860 8631!5860 8631|6072 9203!6072 9203
+|6682 9209!6682 9209|6203 9587!6203 9587|6386 10170!2123 9126|1350 9139!1350 9139|1087 9865!1087 9865|835 9135!835 9135|63 9109!63 9109|680 8644!680 8644|466 7901!466 7901|1099 8345!1099 8345|1739 7912!1739 7912|1513 8651!1513 8651|2123
+ 9126"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="photos" color="#009999" locked="true" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="photo3" color="#FF4FFF" parentLayerIndex="1" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="23" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="23" duration="25" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance libraryItemName="photo3.jpg">
+                                             <matrix>
+                                                  <Matrix a="0.9993896484375" b="-0.0348968505859375" c="0.0348968505859375" d="0.9993896484375" tx="351.35" ty="72.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="200.05" y="250.05"/>
+                                             </transformationPoint>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="photo2" color="#FF800A" parentLayerIndex="1" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="11" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="11" duration="37" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance libraryItemName="photo2.jpg">
+                                             <matrix>
+                                                  <Matrix a="0.994522094726563" b="0.104522705078125" c="-0.104522705078125" d="0.994522094726563" tx="227.2" ty="20.45"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="200.05" y="250"/>
+                                             </transformationPoint>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="photo1" color="#9933CC" parentLayerIndex="1" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="48" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance libraryItemName="photo1.jpg">
+                                             <matrix>
+                                                  <Matrix a="0.9781494140625" b="-0.207916259765625" c="0.207916259765625" d="0.9781494140625" tx="2.4" ty="97.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="200" y="250"/>
+                                             </transformationPoint>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="background" color="#4F80FF" locked="true" autoNamed="false" heightLiteral="18">
+                         <frames>
+                              <DOMFrame index="0" duration="48" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance libraryItemName="background.png"/>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <scripts>
+          <GlobalScripts language="Javascript"/>
+     </scripts>
+     <PrinterSettings/>
+     <publishHistory/>
+</DOMDocument>

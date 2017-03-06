@@ -1,0 +1,128 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="600" height="450" currentTimeline="1" xflVersion="2.9" creatorInfo="Adobe Animate CC" platform="Windows" versionInfo="Saved by Animate Windows 16.1 build 86" majorVersion="16" minorVersion="1" buildNumber="86" rulerVisible="true" viewAngle3D="60" vanishingPoint3DX="300" vanishingPoint3DY="225" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F" fileGUID="D7488FF92AFA6E45BE5560572B1D00A5">
+     <folders>
+          <DOMFolderItem name="background.psd Asset" itemID="513793d1-0000004d" isExpanded="true"/>
+          <DOMFolderItem name="background.psd Asset/Assets" itemID="513793d1-0000004e"/>
+          <DOMFolderItem name="characters" itemID="513795d3-0000005d" isExpanded="true"/>
+     </folders>
+     <media>
+          <DOMBitmapItem name="background.psd Asset/Assets/Background" itemID="513793d1-00000053" sourceExternalFilepath="../03End/LIBRARY/background.psd Asset/Assets/Background" sourceLastImported="1362596817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background.psd Asset/Assets/Background" bitmapDataHRef="M 3 1362596817.dat" frameRight="12000" frameBottom="9000"/>
+          <DOMBitmapItem name="background.psd Asset/Assets/flare" itemID="513793d1-00000058" sourceExternalFilepath="../03End/LIBRARY/background.psd Asset/Assets/flare" sourceLastImported="1362596817" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="background.psd Asset/Assets/flare" bitmapDataHRef="M 4 1362596817.dat" frameRight="10920" frameBottom="7000"/>
+     </media>
+     <symbols>
+          <Include href="background.psd Asset/Background.xml" loadImmediate="false" itemID="513793d1-00000050" lastModified="1362596817"/>
+          <Include href="background.psd Asset/flare.xml" loadImmediate="false" itemID="513793d1-00000055" lastModified="1362596817"/>
+          <Include href="characters/hero.xml" loadImmediate="false" itemID="513792ec-00000039" lastModified="1362596588"/>
+          <Include href="characters/robot.xml" loadImmediate="false" itemID="5137932c-0000003e" lastModified="1362597971"/>
+          <Include href="title.xml" loadImmediate="false" itemID="5137a18f-00000176" lastModified="1362600335"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;-219&lt;/guideline&gt;&lt;guideline direction="h"&gt;435&lt;/guideline&gt;&lt;/guidelines&gt;'>
+               <layers>
+                    <DOMLayer name="text" color="#669900" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="title" matrix3D="0.646723449230194 -0.0362108647823334 0.761864483356476 0 -0.0202324781566858 0.997706413269043 0.0645949989557266 0 -0.762456178665161 -0.0571895241737366 0.644507467746735 0 2923.37451171875 900.070556640625 -4650.45849609375 1" rotationX="3.74966532073998" rotationY="-49.8424409160194" centerPoint3DX="338.9" centerPoint3DY="95.95">
+                                             <matrix>
+                                                  <Matrix tx="68" ty="24.55"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="219.95" y="71.4"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="hero" color="#FF0000" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="characters/hero" selected="true" exportAsBitmap="true">
+                                             <matrix>
+                                                  <Matrix tx="245" ty="205"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="65.6" y="114.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="robot" color="#0000FF" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="characters/robot">
+                                             <matrix>
+                                                  <Matrix a="-0.5518798828125" d="0.548385620117188" tx="499" ty="156.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="94.7" y="164.2"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color brightness="-0.4"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="characters/robot">
+                                             <matrix>
+                                                  <Matrix a="-0.625900268554688" d="0.621963500976562" tx="587" ty="198"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="94.65" y="164.25"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="characters/robot">
+                                             <matrix>
+                                                  <Matrix tx="31.25" ty="105.6"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="94.7" y="164.2"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="flare" color="#808080" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="background.psd Asset/flare" blendMode="lighten">
+                                             <transformationPoint>
+                                                  <Point x="273" y="175"/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <BlurFilter blurX="10" blurY="10"/>
+                                             </filters>
+                                             <color>
+                                                  <Color alphaMultiplier="0.5"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Background" color="#009999" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="background.psd Asset/Background">
+                                             <transformationPoint>
+                                                  <Point x="300" y="225"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <scripts/>
+     <PrinterSettings platform="macintosh"/>
+     <publishHistory>
+          <PublishItem publishSize="153875" publishTime="1488568879"/>
+     </publishHistory>
+</DOMDocument>
